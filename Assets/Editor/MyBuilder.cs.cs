@@ -47,7 +47,7 @@ public class MyBuilder
 	public static void BuildProjectAllSceneIOSandAndroid() { 
 		EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTarget.iOS);
 		List<string> allScene = getAllScene();
-		PlayerSettings.bundleIdentifier = "com.kurakura.test";
+		PlayerSettings.bundleIdentifier = "com.Kurakura.jenkinsTest0323";
 		PlayerSettings.statusBarHidden = true;
 		BuildPipeline.BuildPlayer(
 			allScene.ToArray(),
